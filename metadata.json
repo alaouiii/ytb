@@ -1,0 +1,6 @@
+{
+  "name": "TubePulse - YouTube Downloader & Creator SEO Suite",
+  "description": "All-in-one creator toolkit featuring YouTube downloader with y2mate converter, HD thumbnail extractor, live hashtag and keyword generator, and SEO video optimizer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

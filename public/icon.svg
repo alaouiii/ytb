@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <!-- Background Card -->
+  <rect width="512" height="512" rx="128" fill="#090d16"/>
+  <!-- TubePulse Red Pill -->
+  <rect x="64" y="96" width="384" height="320" rx="80" fill="url(#bg)" filter="url(#shadow)"/>
+  <!-- Inner Highlight -->
+  <rect x="64" y="96" width="384" height="160" rx="80" fill="url(#glow)"/>
+  <!-- Play & Pulse Arrow Triangle -->
+  <path d="M216 192 L344 256 L216 320 Z" fill="#ffffff" filter="url(#shadow)"/>
+  <!-- Creator Audio Pulse Bar lines -->
+  <circle cx="170" cy="256" r="14" fill="#ffffff" opacity="0.9"/>
+  <circle cx="360" cy="220" r="8" fill="#fca5a5"/>
+  <circle cx="376" cy="270" r="10" fill="#ffffff"/>
+</svg>
